@@ -3,6 +3,7 @@ title: The Queen's Court
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.queenscourt.org" # the base hostname & protocol for your site
 filehost: https://googledrive.com/host/0B2nLo9e3GrameHBzYXc2QlJ3Tlk
+destination: _gh_pages
 
 # Build settings
 markdown: kramdown
