@@ -1,7 +1,0 @@
-<div style="margin-bottom: 5px;"><b>Screenshots from<br/><a href="game_link">Game_name</a> :</b>
-</div>
-<!-- TO DO: Fix this -->
-{% assign links = (site.pages | where: "gameid" , "gameid") %}
-{% for link in links %}
-     -&nbsp;<a href="item1_link">{{ link.title }}</a><br />
-{% endfor %}
