@@ -1,0 +1,16 @@
+---
+layout: default
+title: Hosted Rm2k/3 games
+aside: sundry_links.html
+---
+
+<b>Classic Rm2k/3 games</b>
+<br />
+<br /> Generally, these games are those which once left a mark on the community but have been long forgotten or are now unavailable for download for whatever reason. I've included my irreverent reasons for hosting each of them. Enjoy!
+<br />
+<br />
+<p />
+
+{% for game in site.data.othergames %}
+<b><a href="{{ site.filehost }}/games/{{ game.filename }}">{{ game.name }}</a></b>&nbsp;-&nbsp; {{ game.summary }}<br /><p />
+{% endfor %}
