@@ -93,3 +93,10 @@ This site is hosted in [Netlify](//netlify.com) with `Pretty URLs` enable (ie. `
 ## Contribute
 
 Feel free!
+
+## Copyright
+
+All contents is belong to their original authors.
+**QueensCourt.org** is copyright to **iishenron**.
+
+<!-- More copyright stuff goes here -->
