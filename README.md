@@ -1,7 +1,11 @@
 # www.queenscourt.org
 An archive of The Queen's Court site. Keep it alive.
 
-All downloads (zip, rar, etc) hosted in: https://googledrive.com/host/0B2nLo9e3GrameHBzYXc2QlJ3Tlk
+All downloads (zip, rar, etc) hosted in:
+- https://googledrive.com/host/0B2nLo9e3GrameHBzYXc2QlJ3Tlk, or
+- https://drive.google.com/folderview?id=0B2nLo9e3GrameHBzYXc2QlJ3Tlk
+
+**NOTICE: [Web hosting in Google Drive will be deprecated soon!](//googleappsupdates.blogspot.co.id/2015/08/deprecating-web-hosting-support-in.html)** Gonna find a new hosting. Want to help? [Submit an issue](//github.com/indrakaw/www.queenscourt.org/issues).
 
 ## How to run locally
 Make sure you have Ruby and RubyGems installed.
@@ -43,7 +47,7 @@ In this site there are 4 php with `GET` url:
 /misao/2005
 
 /screenshots.php?ImageID=12
-screenshots/12
+/screenshots/12
 ```
 
 This site is hosted in [Netlify](//netlify.com) with `Pretty URLs` enable (ie. `/about.html` -> `/about`, `/about/index.html` -> `/about/`).
