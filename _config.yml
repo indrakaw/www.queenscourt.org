@@ -10,7 +10,7 @@ markdown: kramdown
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md']
 
 # Collection. For redudancy and data gathering.
-# All data going stored at "site.data.collenctionname"
+# All data going stored at "site.collenctionname"
 collections:
   games:
     output: true
@@ -18,6 +18,14 @@ collections:
     output: true
   reviews:
     output: true
+
+# Default value for all page.
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
 
 # Page generator
 page_gen:
