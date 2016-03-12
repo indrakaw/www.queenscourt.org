@@ -8,7 +8,7 @@
         <table width="100%" cellpadding="7" cellspacing="0">
           <tr>
             <td style="border-bottom: 1px dashed #000000" colspan="2">
-              <span style="font-size: 16px; font-weight: bold;">{{ page.title }}</span>
+              <span style="font-size: 16px; font-weight: bold;">{% if page.gamename %}{{ page.gamename }}: {% endif %}{{ page.title }}</span>
             </td>
           </tr>
           <td width="75%" style="border-right: 1px dashed #000000" valign="top">
