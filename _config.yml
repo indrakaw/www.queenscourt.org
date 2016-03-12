@@ -9,6 +9,16 @@ destination: _site
 markdown: kramdown
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md']
 
+# Collection. For redudancy and data gathering.
+# All data going stored at "site.data.collenctionname"
+collections:
+  games:
+    output: true
+  misao:
+    output: true
+  reviews:
+    output: true
+
 # Page generator
 page_gen:
   - data: screenshots
