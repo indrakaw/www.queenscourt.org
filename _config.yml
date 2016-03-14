@@ -2,7 +2,7 @@
 title: The Queen's Court
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.queenscourt.org" # the base hostname & protocol for your site
-filehost: https://googledrive.com/host/0B2nLo9e3GrameHBzYXc2QlJ3Tlk
+filehost: "http://queenscourt.updog.co"
 destination: _site
 
 # Build settings
@@ -10,7 +10,7 @@ markdown: kramdown
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md']
 
 # Collection. For redudancy and data gathering.
-# All data going stored at "site.collenctionname"
+# All data going stored. i.e  "site.games[0].title".
 collections:
   games:
     output: true
