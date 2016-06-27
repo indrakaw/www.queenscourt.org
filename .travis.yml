@@ -1,0 +1,25 @@
+language: ruby
+
+rvm:
+  - 2.2
+
+node_js:
+  - "0.12"
+
+before_install:
+  - gem update --system
+
+install:
+  - gem install bundler --no-ri --no-rdoc
+  - bundle install
+
+script:
+  - bundle exec jekyll clean
+  - bundle exec jekyll build
+
+after_success:
+  - npm install
+  - surge --project ./_site --domain queenscourt.surge.sh
+
+git:
+  depth: 10

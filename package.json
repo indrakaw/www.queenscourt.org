@@ -1,0 +1,24 @@
+{
+  "name": "@indrakaw/www.queenscourt.org",
+  "version": "1.0.0",
+  "description": "An archive of The Queen's Court site. Keep it alive.",
+  "private": true,
+  "scripts": {
+    "test": "mocha",
+    "compile": "bundle exec jekyll build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indrakaw/www.queenscourt.org.git"
+  },
+  "author": "Indra Kurnawan <indrakaw@teknik.io>",
+  "keywords": ["queenscourt", "www.queenscourt.org", "archive", "travis ci", "static"],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indrakaw/www.queenscourt.org/issues"
+  },
+  "homepage": "https://github.com/indrakaw/www.queenscourt.org#readme",
+  "devDependencies": {
+    "surge": "^0.18.0"
+  }
+}
