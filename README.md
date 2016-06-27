@@ -1,7 +1,9 @@
 # www.queenscourt.org
+[![Build Status](https://travis-ci.org/indrakaw/www.queenscourt.org.svg?branch=master)](https://travis-ci.org/indrakaw/www.queenscourt.org)
+
 An archive of The Queen's Court site. Keep it alive.
 
-All downloads (zip, rar, etc) hosted in:
+All download-able contents (zip, rar, etc) hosted on:
 - https://googledrive.com/host/0B2nLo9e3GrameHBzYXc2QlJ3Tlk, or
 - https://drive.google.com/folderview?id=0B2nLo9e3GrameHBzYXc2QlJ3Tlk
 
@@ -19,21 +21,18 @@ bundle exec jekyll serve
 ```
 
 ## Status
-Status goes here.
+Improving.
 
 ## Conversation methods
 All page in original site originally written in `.php`, and it archived-rebuild in `.html` static. See following methods:
 
-General php pages with no `GET` url:
-```
-pagefilename.php
-pagefilename.html
-```
-General php pages with `GET` url:
-```
-pagefilename.php?key=value
-pagefilename/value.html
-```
+Pages by extensions:
+- Originally: `pagefilename.php`
+- Into: `pagefilename.html`
+
+Pages by `GET` url:
+- Originally: `pagefilename.php?key=value`
+- Into: `pagefilename/value.html`
 
 In this site there are 4 php with `GET` url:
 ```
